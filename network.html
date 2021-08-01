@@ -10,81 +10,82 @@
   <body>
     <div class="container">
      <div class="network-box">
-     <div class="row">
-       <div class="col-md-4">
+     <div class="row pb-4">
+       <div class="col-lg-4 col-md-6">
          <h3>Wifi Networks</h3>
           <div class="" id="ssids"></div>
        </div>
-       <div class="col-md-8">
+       <div class="col-lg-8">
          <h3>Status</h3>
           <div class="row mb-2">   
-            <div class="col-lg-3">System Name:</div>
-            <div class="col-lg-9" id="info-Name"></div>
+            <div class="col-lg-3 col-sm-4 col-5">System Name:</div>
+            <div class="col-lg-9 col-sm-8 col-7" id="info-Name"></div>
           </div>
           <div class="row mb-2">
-            <div class="col-lg-3">FW Version:</div>
-            <div class="col-lg-9" id="info-Ver"></div>
+            <div class="col-lg-3 col-sm-4 col-5">FW Version:</div>
+            <div class="col-lg-9 col-sm-8 col-7" id="info-Ver"></div>
           </div>
           <div class="row mb-2">
-            <div class="col-lg-3">Device ID:</div>
-            <div class="col-lg-9" id="info-DeviceId"></div>
+            <div class="col-lg-3 col-sm-4 col-5">Device ID:</div>
+            <div class="col-lg-9 col-sm-8 col-7" id="info-DeviceId"></div>
           </div>
           <div class="row mb-2">
-            <div class="col-lg-3">Local Time:</div>
-            <div class="col-lg-9" id="info-LocalTime"></div>
+            <div class="col-lg-3 col-sm-4 col-5">Local Time:</div>
+            <div class="col-lg-9 col-sm-8 col-7" id="info-LocalTime"></div>
           </div>
           <div class="row mb-2">
-            <div class="col-lg-3">MAC Address:</div>
-            <div class="col-lg-9" id="info-Mac"></div>
+            <div class="col-lg-3 col-sm-4 col-5">MAC Address:</div>
+            <div class="col-lg-9 col-sm-8 col-7" id="info-Mac"></div>
           </div>
           <div class="row mb-2">   
-            <div class="col-lg-3">Internet Status:</div>
-            <div class="col-lg-9" id="info-Internet"></div>
+            <div class="col-lg-3 col-sm-4 col-5">Internet Status:</div>
+            <div class="col-lg-9 col-sm-8 col-7" id="info-Internet"></div>
           </div>
           <div class="row mb-2">
-            <div class="col-lg-3">Cloud Status:</div>
-            <div class="col-lg-9" id="info-Cloud"></div>
+            <div class="col-lg-3 col-sm-4 col-5">Cloud Status:</div>
+            <div class="col-lg-9 col-sm-8 col-7" id="info-Cloud"></div>
           </div>
           <div class="row mb-2">   
-            <div class="col-lg-3">Ethernet Status:</div>
-            <div class="col-lg-9" id="info-Ethernet"></div>
+            <div class="col-lg-3 col-sm-4 col-5">Ethernet Status:</div>
+            <div class="col-lg-9 col-sm-8 col-7" id="info-Ethernet"></div>
           </div>
           <div class="row mb-2">
-            <div class="col-lg-3">Wifi Status:</div>
-            <div class="col-lg-9" id="info-Wifi"></div>
+            <div class="col-lg-3 col-sm-4 col-5">Wifi Status:</div>
+            <div class="col-lg-9 col-sm-8 col-7" id="info-Wifi"></div>
           </div>
           <div class="row mb-2">
-            <div class="col-lg-3">LTE Status:</div>
-            <div class="col-lg-9" id="info-Lte"></div>
+            <div class="col-lg-3 col-sm-4 col-5">LTE Status:</div>
+            <div class="col-lg-9 col-sm-8 col-7" id="info-Lte"></div>
           </div>
           <div class="row mb-2">
-            <div class="col-lg-3">VPN Status:</div>
-            <div class="col-lg-9" id="info-Vpn"></div>
+            <div class="col-lg-3 col-sm-4 col-5">VPN Status:</div>
+            <div class="col-lg-9 col-sm-8 col-7" id="info-Vpn"></div>
           </div>
           <div class="pt-3">
             <button class="btn btn-primary" onclick="location.href='console.html';">Console</button>
           </div>
        </div>
      </div>
-     <div class="pt-4 mb-3">
+     <div class="border-bottom"></div>
+     <div class="pt-3 mb-3">
       <div class="row mb-2">
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-6">
           <label for="text-ssid" class="d-block mb-1">SSID:</label>
           <input class="form-control" type="text" id="text-ssid">        
         </div>
       </div>
-      <div class="row mb-2">   
-        <div class="col-lg-4">
+      <div class="row mb-2">
+        <div class="col-lg-4 col-md-6">
           <label for="text-pass" class="d-block mb-1">Key:</label>
           <input class="form-control" type="password" id="text-pass">
         </div>
       </div>
      </div>
-      <div class="d-flex">
-        <button class="btn btn-primary me-2" onclick='self.close()'>Cancel</button>
-        <button class="btn btn-primary me-2" id="btn-disconnect" value="Disconnect">Disconnect</button>
-        <button class="btn btn-primary me-2" id="btn-connect" value="Connect">Connect</button>
-        <button class="btn btn-primary me-2" id="btn-cancel-ap" value="End Wifi Access Point Mode">End Wifi Access Point Mode</button>
+      <div class="d-flex align-items-start flex-wrap">
+        <button class="btn btn-primary mb-2 me-2" onclick='self.close()'>Cancel</button>
+        <button class="btn btn-primary mb-2 me-2" id="btn-disconnect" value="Disconnect">Disconnect</button>
+        <button class="btn btn-primary mb-2 me-2" id="btn-connect" value="Connect">Connect</button>
+        <button class="btn btn-primary mb-2 me-2" id="btn-cancel-ap" value="End Wifi Access Point Mode">End Wifi Access Point Mode</button>
       </div>
      </div>
     </div>
