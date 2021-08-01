@@ -1,0 +1,62 @@
+{
+ "ActiveSchedule": "Normal",
+ "AddressTun0": "10.212.0.5",
+ "AddressWlan0": "192.168.0.130",
+ "AvgLoad": 39.460946746815,
+ "Branch": "master",
+ "BuildDate": "Jul 31 2021",
+ "BuildTime": "22:55:30",
+ "ConnectedCloud": "Connected",
+ "ConnectedDevicesCount": 9,
+ "ConnectedEth0": "Not Connected",
+ "ConnectedInet": "Connected",
+ "ConnectedInetVia": "Wifi",
+ "ConnectedPpp0": "Not Connected",
+ "ConnectedVpn": "Connected",
+ "ConnectedWlan0": "Connected",
+ "CurrentDemand": 17.373,
+ "CurrentDemandLimit": 24.0,
+ "CurrentDemandTier": 1,
+ "CurrentNotification": "",
+ "CurrentPowerKw": 16.690507,
+ "DeviceId": "e6466b11-332f-4de4-8d70-15d215e53549",
+ "HubUptime": 16625,
+ "LocalTime": "2021-07-31T20:33:09-07:00",
+ "Mac": "0044230000134373",
+ "Uptime": 18891,
+ "UtcTime": "2021-08-01T03:33:09Z",
+ "Settings" :
+ {
+	 "Name": "System Name"
+ },
+ "Versions": [
+  {
+   "Component": "Os",
+   "Date": "2021-06-17",
+   "Hash": "129c700a"
+  },
+  {
+   "Component": "Apps",
+   "Date": "2021-07-31",
+   "Hash": "accf9dea"
+  }
+ ],
+ "WifiApMode": false,
+ "WifiNetworks": [
+  "Bear",
+  "MikroTik-7DC79B",
+  "DIRECT-vGC48x Series",
+  "Fhloston Paradise",
+  "SigoSiendoElRey",
+  "Deanus",
+  "DIRECT-D0-HP OfficeJet Pro 8710",
+  "ToughMudder",
+  "CenturyLink0958",
+  "Wynn3"
+ ],
+ "WifiRssi": -64,
+ "WifiSsid": "Bear",
+ "WifiState": "COMPLETED",
+ "ZwaveInitialized": true,
+ "ZwaveNetStatus": ""
+}
